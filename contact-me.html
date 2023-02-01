@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h3>Contact Details</h3>
+    <ul>
+        <li> <a href="https://www.linkedin.com/in/hui-yu-chen-tw/"> Linkedin</a></li>
+        <li> E-mail: nolliechy@gmail.com </li>
+        <li> Phone: +886-919-503-737</li>
+    </ul>    
+
+    <hr size="3" noshade>
+    <form action="mailto:nolliechy@gmail.com" method="post" enctype="text/plain"> <!--讓users填表單--> 
+        <!--action代表submit後的事--> <!--post代表以下內容會寄給email--> <!--確保文字非亂碼-->
+        <label> Your Name:</label>
+        <input type="text" name="yourName" value=""> <br> <!--為了可以存users輸入的文字-->
+        <label> Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label> Your Message:</label><br>
+        <textarea name="yourMessage" row="100" cols="30"></textarea> <br> <!--留言區的大小-->
+        <label> Do you want to sign up to the email list? </label>
+        <input type="checkbox" name="" value=""></lnput> <br><br><br>
+        <input type="submit" name="" > <!--送出users輸入的值-->
+    </form>
+</body>
+</html>
